@@ -23,6 +23,7 @@ def read():
             pmenu.append(i.rstrip("\\n").split())
             pmenu[c - 1][0] = int(pmenu[c - 1][0])
             c += 1
+    f.close()
 
 
 read()
